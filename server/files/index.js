@@ -89,9 +89,10 @@ function addMovie(imdbID) {
       if (response.status === 201) {
         // Task 2.2: Make sure to remove the added movie from the search results to avoid
         // giving the user the option to add it again.
-    
         loadMovies();
         updateGenres();
+
+
       } else if (response.status === 200) {
         alert(messages.movieAlreadyInCollection);
       } else {
@@ -137,6 +138,17 @@ function searchMovies(query) {
       // include an "Add" button for each result that calls `addMovie(imdbID)` when clicked.
       // There is a second part to this task, in `addMovie`
 
+      results.forEach(result => {
+        const movie = document.createElement("p");
+        movie.textContent = "Title: " + result.Title + " Year: " + result.Year;
+        const addButton = document.createElement("button");
+        addButton.textContent = "Add Movie";
+        addButton.addEventListener("click", () => {
+          addMovie(result.imdbID)
+        });
+        resultsDiv.appendChild(movie);
+        resultsDiv.append(addButton);
+      });
     })
     .catch(error => {
       console.error('Search failed:', error);
@@ -244,6 +256,7 @@ window.onload = function () {
           currentSession = data;
           updateUI();
           loadMovies();
+          document.getElementById("loginDialog").close();
         })
         .catch(error => {
           console.error('Failed to load login:', error);

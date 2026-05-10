@@ -1,30 +1,5 @@
 {
   "joe": {
-    "tt0399295": {
-      "imdbID": "tt0399295",
-      "Title": "Lord of War",
-      "Released": "2005-09-15",
-      "Runtime": 122,
-      "Genres": [
-        "Crime",
-        "Drama"
-      ],
-      "Directors": [
-        "Andrew Niccol"
-      ],
-      "Writers": [
-        "Andrew Niccol"
-      ],
-      "Actors": [
-        "Nicolas Cage",
-        "Ethan Hawke",
-        "Jared Leto"
-      ],
-      "Plot": "An arms dealer confronts the morality of his work as he is being chased by an INTERPOL Agent.",
-      "Poster": "https://m.media-amazon.com/images/M/MV5BNThlY2NkYmMtNTFhNi00MzBiLWJmNzEtZjk5MzYwYWU2MjllXkEyXkFqcGc@._V1_SX300.jpg",
-      "Metascore": 62,
-      "imdbRating": 7.6
-    },
     "tt0167260": {
       "imdbID": "tt0167260",
       "Title": "The Lord of the Rings: The Return of the King",
@@ -53,32 +28,329 @@
       "Metascore": 94,
       "imdbRating": 9
     },
-    "tt0057261": {
-      "imdbID": "tt0057261",
-      "Title": "Lord of the Flies",
-      "Released": "1963-08-12",
-      "Runtime": 92,
+    "tt0245429": {
+      "imdbID": "tt0245429",
+      "Title": "Spirited Away",
+      "Released": "28 Mar 2003",
+      "Runtime": "124 min",
       "Genres": [
+        "Animation",
         "Adventure",
-        "Drama",
-        "Thriller"
+        "Family"
       ],
       "Directors": [
-        "Peter Brook"
+        "Hayao Miyazaki"
       ],
       "Writers": [
-        "William Golding",
-        "Peter Brook"
+        "Hayao Miyazaki"
       ],
       "Actors": [
-        "James Aubrey",
-        "Tom Chapin",
-        "Hugh Edwards"
+        "Miyu Irino",
+        "Rumi Hiiragi",
+        "Mari Natsuki"
       ],
-      "Plot": "Schoolboys marooned on a Pacific island create their own savage civilization.",
-      "Poster": "https://m.media-amazon.com/images/M/MV5BY2RiOTM0ZDgtNDRlMi00MDMzLWI1NDYtY2NjZDM4YTkwNWVlXkEyXkFqcGc@._V1_SX300.jpg",
-      "Metascore": 67,
-      "imdbRating": 6.9
+      "Plot": "During her family's move to the suburbs, a sullen 10-year-old girl wanders into a world ruled by gods, witches and spirits, and where humans are changed into beasts.",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BNTEyNmEwOWUtYzkyOC00ZTQ4LTllZmUtMjk0Y2YwOGUzYjRiXkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg",
+      "Metascore": "96",
+      "imdbRating": "8.6"
+    },
+    "tt0372784": {
+      "imdbID": "tt0372784",
+      "Title": "Batman Begins",
+      "Released": "15 Jun 2005",
+      "Runtime": "140 min",
+      "Genres": [
+        "Action",
+        "Crime",
+        "Drama"
+      ],
+      "Directors": [
+        "Christopher Nolan"
+      ],
+      "Writers": [
+        "Bob Kane",
+        "David S. Goyer",
+        "Christopher Nolan"
+      ],
+      "Actors": [
+        "Christian Bale",
+        "Michael Caine",
+        "Ken Watanabe"
+      ],
+      "Plot": "After witnessing his parents' death, billionaire Bruce Wayne learns the art of fighting to confront injustice. When he returns to Gotham as Batman, he must stop a secret society that intends to destroy the city.",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BMzA2NDQzZDEtNDU5Ni00YTlkLTg2OWEtYmQwM2Y1YTBjMjFjXkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg",
+      "Metascore": "70",
+      "imdbRating": "8.2"
+    },
+    "tt1972591": {
+      "imdbID": "tt1972591",
+      "Title": "King Arthur: Legend of the Sword",
+      "Released": "12 May 2017",
+      "Runtime": "126 min",
+      "Genres": [
+        "Action",
+        "Adventure",
+        "Drama"
+      ],
+      "Directors": [
+        "Guy Ritchie"
+      ],
+      "Writers": [
+        "Joby Harold",
+        "Guy Ritchie",
+        "Lionel Wigram"
+      ],
+      "Actors": [
+        "Charlie Hunnam",
+        "Astrid Bergès-Frisbey",
+        "Jude Law"
+      ],
+      "Plot": "Robbed of his birthright, Arthur comes up the hard way in the back alleys of the city. But once he pulls the sword from the stone, he is forced to acknowledge his true legacy - whether he likes it or not.",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BMjM3ODY3Njc5Ml5BMl5BanBnXkFtZTgwMjQ5NjM5MTI@._V1_SX300.jpg",
+      "Metascore": "41",
+      "imdbRating": "6.7"
+    },
+    "tt10999120": {
+      "imdbID": "tt10999120",
+      "Title": "Spirited",
+      "Released": "18 Nov 2022",
+      "Runtime": "127 min",
+      "Genres": [
+        "Comedy",
+        "Family",
+        "Fantasy"
+      ],
+      "Directors": [
+        "Sean Anders"
+      ],
+      "Writers": [
+        "Sean Anders",
+        "John Morris",
+        "Charles Dickens"
+      ],
+      "Actors": [
+        "Will Ferrell",
+        "Ryan Reynolds",
+        "Octavia Spencer"
+      ],
+      "Plot": "A musical version of Charles Dickens's story of a miserly misanthrope who is taken on a magical journey.",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BY2E3MWRiMjYtMjM2Yi00ZDJiLTgwZDctMjk2ZWQ0NjQyYzliXkEyXkFqcGc@._V1_SX300.jpg",
+      "Metascore": "55",
+      "imdbRating": "6.6"
+    },
+    "tt0096895": {
+      "imdbID": "tt0096895",
+      "Title": "Batman",
+      "Released": "23 Jun 1989",
+      "Runtime": "126 min",
+      "Genres": [
+        "Action",
+        "Adventure"
+      ],
+      "Directors": [
+        "Tim Burton"
+      ],
+      "Writers": [
+        "Bob Kane",
+        "Sam Hamm",
+        "Warren Skaaren"
+      ],
+      "Actors": [
+        "Michael Keaton",
+        "Jack Nicholson",
+        "Kim Basinger"
+      ],
+      "Plot": "The Dark Knight of Gotham City begins his war on crime with his first major enemy being Jack Napier, a criminal who becomes the clownishly homicidal Joker.",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BYzZmZWViM2EtNzhlMi00NzBlLWE0MWEtZDFjMjk3YjIyNTBhXkEyXkFqcGc@._V1_SX300.jpg",
+      "Metascore": "69",
+      "imdbRating": "7.5"
+    },
+    "tt0118824": {
+      "imdbID": "tt0118824",
+      "Title": "Casper: A Spirited Beginning",
+      "Released": "09 Sep 1997",
+      "Runtime": "90 min",
+      "Genres": [
+        "Animation",
+        "Comedy",
+        "Family",
+        "Fantasy",
+        "Horror"
+      ],
+      "Directors": [
+        "Sean McNamara"
+      ],
+      "Writers": [
+        "Joseph Oriolo (book)",
+        "Seymour Reit (book)",
+        "Thomas McCluskey (story)",
+        "Rob Kerchner (story)",
+        "Jymn Magon (screenplay)",
+        "Thomas Hart (screenplay)"
+      ],
+      "Actors": [
+        "Steve Guttenberg",
+        "Lori Loughlin",
+        "Rodney Dangerfield",
+        "Michael McKean"
+      ],
+      "Plot": "Casper accidentally finds himself in the world of the living after failing to show up for ghost training and befriended a young boy who teaches him the ways of a ghost, while a ruler from the other world attempts to bring him back.",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BMTc1MjUwOTU3NF5BMl5BanBnXkFtZTcwOTE4MDMzMQ@@._V1_SX300.jpg",
+      "Metascore": "N/A",
+      "imdbRating": "4.6"
+    },
+    "tt1877830": {
+      "imdbID": "tt1877830",
+      "Title": "The Batman",
+      "Released": "04 Mar 2022",
+      "Runtime": "176 min",
+      "Genres": [
+        "Action",
+        "Crime",
+        "Drama"
+      ],
+      "Directors": [
+        "Matt Reeves"
+      ],
+      "Writers": [
+        "Matt Reeves",
+        "Peter Craig",
+        "Bob Kane"
+      ],
+      "Actors": [
+        "Robert Pattinson",
+        "Zoë Kravitz",
+        "Jeffrey Wright"
+      ],
+      "Plot": "When a sadistic serial killer begins murdering key political figures in Gotham, the Batman is forced to investigate the city's hidden corruption and question his family's involvement.",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BMmU5NGJlMzAtMGNmOC00YjJjLTgyMzUtNjAyYmE4Njg5YWMyXkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg",
+      "Metascore": "72",
+      "imdbRating": "7.8"
+    },
+    "tt1367395": {
+      "imdbID": "tt1367395",
+      "Title": "Lord of the Flies",
+      "Released": "11 Apr 2008",
+      "Runtime": "5 min",
+      "Genres": [
+        "Animation",
+        "Short",
+        "Comedy"
+      ],
+      "Directors": [
+        "Brian Rogers",
+        "Robert B. Rogers"
+      ],
+      "Writers": [
+        "Brian Rogers",
+        "Robert B. Rogers"
+      ],
+      "Actors": [
+        "Kevin Rogers",
+        "Peter Rogers",
+        "Robert B. Rogers"
+      ],
+      "Plot": "A Buddha-like bullfrog named Bill is harassed by two obnoxious tree frogs named Flip and Flop.",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BMjEyNjIwOTY0MV5BMl5BanBnXkFtZTcwNTg1NzMzMg@@._V1_SX300.jpg",
+      "Metascore": "N/A",
+      "imdbRating": "4.8"
+    },
+    "tt26678995": {
+      "imdbID": "tt26678995",
+      "Title": "Spirited Away: Live on Stage",
+      "Released": "16 Nov 2022",
+      "Runtime": "170 min",
+      "Genres": [
+        "Adventure",
+        "Family",
+        "Fantasy"
+      ],
+      "Directors": [
+        "John Caird"
+      ],
+      "Writers": [
+        "John Caird",
+        "Maoko Imai",
+        "Hayao Miyazaki"
+      ],
+      "Actors": [
+        "Kotaro Daigo",
+        "Kanna Hashimoto",
+        "Satoshi Hashimoto"
+      ],
+      "Plot": "A young girl arriving in a new neighborhood, enters the world of spirits, and when her parents are turned into pigs she must go on a quest to rescue them.",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BNDRmNGM1YzAtMGQ1Ni00MTNmLTkzNDQtMzc2YjY3MzZlY2VjXkEyXkFqcGc@._V1_SX300.jpg",
+      "Metascore": "N/A",
+      "imdbRating": "8.6"
+    },
+    "tt4200832": {
+      "imdbID": "tt4200832",
+      "Title": "Living Lord of the Flies",
+      "Released": "N/A",
+      "Runtime": "6 min",
+      "Genres": [
+        "Documentary",
+        "Short"
+      ],
+      "Directors": [
+        "N/A"
+      ],
+      "Writers": [
+        "N/A"
+      ],
+      "Actors": [
+        "Tom Gaman"
+      ],
+      "Plot": "N/A",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BNjNhNWJhZmQtMGY2NS00NTcxLTliY2MtN2RlN2U5ZDMzZjlkXkEyXkFqcGdeQXVyNjA3ODM1Njg@._V1_SX300.jpg",
+      "Metascore": "N/A",
+      "imdbRating": "7.8"
+    },
+    "tt4200836": {
+      "imdbID": "tt4200836",
+      "Title": "Gerald Feil on Lord of the Flies",
+      "Released": "N/A",
+      "Runtime": "20 min",
+      "Genres": [
+        "Documentary",
+        "Short"
+      ],
+      "Directors": [
+        "N/A"
+      ],
+      "Writers": [
+        "N/A"
+      ],
+      "Actors": [
+        "Gerald Feil"
+      ],
+      "Plot": "N/A",
+      "Poster": "N/A",
+      "Metascore": "N/A",
+      "imdbRating": "N/A"
+    },
+    "tt5672576": {
+      "imdbID": "tt5672576",
+      "Title": "Lord of the Flies, Reimagined by Jack McBrayer",
+      "Released": "14 Apr 2016",
+      "Runtime": "2 min",
+      "Genres": [
+        "Animation",
+        "Short"
+      ],
+      "Directors": [
+        "Richard Dicko Mather"
+      ],
+      "Writers": [
+        "Chris Goodwin"
+      ],
+      "Actors": [
+        "Jack McBrayer"
+      ],
+      "Plot": "N/A",
+      "Poster": "N/A",
+      "Metascore": "N/A",
+      "imdbRating": "N/A"
     }
   },
   "jane": {
