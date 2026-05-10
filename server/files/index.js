@@ -168,6 +168,15 @@ window.onload = function () {
       // Task 1.2: Render a user greeting to `#userGreeting` 
       // using `firstName`, `lastName`, and the server-provided
       // login timestamp.
+      const firstName = currentSession.firstName
+      const lastName = currentSession.lastName
+      const loginDate = new Date(currentSession.loginTime)
+      const date = loginDate.toLocaleDateString('de-DE')
+      const time = loginDate.toLocaleTimeString('de-DE')
+
+
+      const paragraph = document.createElement("p").textContent = "Hi " + firstName + " " + lastName + " du hast dich am " + date + " um " + time + " angemeldet";
+      greetingElement.append(paragraph);
     } else {
       greetingElement.textContent = messages.loggedOutGreeting;
     }
@@ -215,6 +224,31 @@ window.onload = function () {
     // Task 1.1: Implement the login submit flow to call `POST /login` 
     // with username and password, handle errors, save the response 
     // into `currentSession`, then call `updateUI()` and `loadMovies()`.
+
+    //Objects.fromEntries() transforms a list of key-value pairs into an Object
+    const data = Object.fromEntries(formData);
+    fetch(`/login`, {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify(data),
+    })
+        .then(response => {
+          if(!response.ok) {
+            throw new Error(`HTTP ${response.status}`);
+          }
+          return response.json();
+        })
+        .then(data => {
+          currentSession = data;
+          updateUI();
+          loadMovies();
+        })
+        .catch(error => {
+          console.error('Failed to load login:', error);
+        })
+
 
   });
 

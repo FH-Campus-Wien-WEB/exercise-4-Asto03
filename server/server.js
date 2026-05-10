@@ -25,7 +25,9 @@ app.use(express.static(path.join(__dirname, "files")));
 
 app.post("/login", function (req, res) {
   const { username, password } = req.body;
+  //searches for user entry
   const user = userModel[username];
+  //if the user was found and the entered password is correct create session for user
   if (user && bcrypt.compareSync(password, user.password)) {
     req.session.user = {
       username,
@@ -43,6 +45,19 @@ app.post("/login", function (req, res) {
 // protection. Implement logout by destroying the session 
 // with error handling. Protect all endpoints that need 
 // authentication with `requireLogin`.
+
+app.get("/logout", function (req, res) {
+  req.session.destroy();
+  res.sendStatus(200);
+});
+
+app.use(function requiredLogin(req, res, next) {
+  if(!req.session || !req.session.user) {
+    res.sendStatus(401);
+  } else {
+    next()
+  }
+});
 
 app.get("/session", function (req, res) {
   if (req.session.user) {
