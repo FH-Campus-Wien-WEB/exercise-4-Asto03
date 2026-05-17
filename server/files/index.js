@@ -180,6 +180,7 @@ window.onload = function () {
       // Task 1.2: Render a user greeting to `#userGreeting` 
       // using `firstName`, `lastName`, and the server-provided
       // login timestamp.
+      greetingElement.textContent = '';
       const firstName = currentSession.firstName
       const lastName = currentSession.lastName
       const loginDate = new Date(currentSession.loginTime)
