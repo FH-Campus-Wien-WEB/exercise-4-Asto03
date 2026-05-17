@@ -61,7 +61,7 @@ function requiredLogin(req, res, next) {
   } else {
     next()
   }
-};
+}
 
 app.get("/session", function (req, res) {
   if (req.session.user) {
@@ -108,7 +108,6 @@ app.put("/movies/:imdbID", requiredLogin, function (req, res) {
       return res.sendStatus(400);
     }
     const url = `http://www.omdbapi.com/?i=${encodeURIComponent(imdbID)}&apikey=${config.omdbApiKey}`;
-    console.log(url);
     const controller = new AbortController();
     const timeoutId = setTimeout(() => controller.abort(), config.omdbTimeoutMs);
     fetch(url, { signal: controller.signal })
@@ -146,9 +145,6 @@ app.put("/movies/:imdbID", requiredLogin, function (req, res) {
           console.error('OMDb API error:', err);
           res.sendStatus(500);
         });
-  } else {
-    movieModel.setUserMovie(username, imdbID, req.body);
-    res.sendStatus(200);
   }
 });
 
