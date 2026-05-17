@@ -165,7 +165,7 @@ window.onload = function () {
       return response.json();
     })
     .then(data => {
-      currentSession = data || null;
+      currentSession = data;
       updateUI();
     })
     .catch(error => {
